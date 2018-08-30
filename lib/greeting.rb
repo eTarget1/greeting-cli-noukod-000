@@ -2,9 +2,7 @@
 def greeting(name)
 puts "Hi! Welcome to the wonderful world of Ruby programming."
 
-print "Please enter your name so that we can greet you more personally:"
-#print "What's your last name? "
-#last_name = gets.chomp
+puts "Please enter your name so that we can greet you more personally:"
 
 name = gets.strip
 greeting(name)
